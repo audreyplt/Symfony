@@ -1,0 +1,24 @@
+<ul class="navbar-nav">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ deviseChoix }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            {% if deviseChoix != 'USD' %}
+                <a class="dropdown-item"
+                   href="{{ path("devise", {'to': 'USD'}) }}">
+                    USD</a>
+            {% endif %}
+            {% if  deviseChoix != 'GBP'%}<a class="dropdown-item"
+                       href="{{ path("devise", {'to': 'GBP'}) }}">
+                    GBP</a>
+            {% endif %}
+            {% if  deviseChoix != 'EUR'%}
+                <a class="dropdown-item"
+                   href="{{ path("devise", {'to': 'EUR'}) }}">
+                    EUR</a>
+            {% endif %}
+        </div>
+    </li>
+</ul>

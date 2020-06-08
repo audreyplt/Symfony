@@ -1,0 +1,24 @@
+{{ form_start(form) }}
+
+
+<div class="form-group">
+    <label for="usager_email" class="required">{{ "Email"|trans }}</label>
+    {{ form_row(form.email) }}
+</div>
+<div class="form-group">
+    <label for="usager_email" class="required">{{ "Mot de passe"|trans }}</label>
+    {{ form_row(form.password) }}
+</div>
+<div class="form-group">
+    <label for="usager_email" class="required">{{ "Nom"|trans }}</label>
+    {{ form_row(form.nom) }}
+</div>
+<div class="form-group">
+    <label for="usager_email" class="required">{{ "Prénom"|trans }}</label>
+    {{ form_row(form.prenom) }}
+</div>
+<div class="form-group">
+    {{ form_row(form.captchaCode) }}
+</div>
+<button class="btn btn-lg btn-primary">{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}

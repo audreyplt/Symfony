@@ -1,0 +1,39 @@
+{% extends 'commun/base.html.twig' %}
+
+{% block title %}{{ "Back-Office - Accueil"|trans }}{% endblock %}
+
+{% block body %}
+
+    <main role="main" class="container-fluid">
+    <div class="row">
+    <div class="container mt-4">
+        <div class="bg-tertiary">
+            <div class="container section-header no-breadcrumb">
+                <h1 class="text-center mb-0">{{ "Gestion des Rayons"|trans }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ "Catégories"|trans }}</h5>
+                        <p class="card-text">{{ "Vous pouvez ajouter, modifier ou supprimer une catégorie."|trans }}</p>
+                        <a href="{{ path("categorie_index") }}"
+                           class="btn btn-primary">{{ "Gestion des catégories"|trans }}</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ "Produits"|trans }}</h5>
+                        <p class="card-text">{{ "Vous pouvez ajouter, modifier ou supprimer un produit."|trans }}</p>
+                        <a href="{{ path("produit_index") }}"
+                           class="btn btn-primary">{{ "Gestion des produits"|trans }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

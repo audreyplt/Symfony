@@ -1,0 +1,141 @@
+index:
+  path: /{_locale}
+  controller: App\Controller\DefaultController::index
+  requirements:
+      _locale: '%app.supported_locales%'
+  defaults:
+     _locale: fr
+
+contact:
+  path: /{_locale}/contact
+  controller: App\Controller\DefaultController::contact
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+boutique:
+  path: /{_locale}/boutique
+  controller: App\Controller\BoutiqueController::index
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: 'fr'
+
+rayon:
+  path: /{_locale}/boutique/rayon/{idRayon}
+  controller: App\Controller\BoutiqueController::rayon
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+search:
+  path: /{_locale}/boutique/chercher
+  controller: App\Controller\BoutiqueController::chercher
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+panier:
+  path: /{_locale}/panier
+  controller: App\Controller\PanierController::index
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+panier_ajouter:
+  path: /{_locale}/panier/ajouter/{idProduit}
+  controller: App\Controller\PanierController::panierAjouter
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+panier_enlever:
+  path: /{_locale}/panier/supprimer/{idProduit}
+  controller: App\Controller\PanierController::panierEnlever
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+
+panier_supprimer:
+  path: /{_locale}/panier/supprimer/{idProduit}
+  controller: App\Controller\PanierController::panierSupprimer
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+panier_vider:
+  path: /{_locale}/panier/vider
+  controller: App\Controller\PanierController::panierVider
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+panier_validation:
+  path: /{_locale}/usager/commande
+  controller: App\Controller\PanierController:validation
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+usager_accueil:
+  path: /{_locale}/usager/accueil
+  controller: App\Controller\UsagerController::index
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+usager_inscription:
+  path: /{_locale}/usager/inscription
+  controller: App\Controller\UsagerController::nouvelleUsager
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+usager_connexion:
+  path: /{_locale}/usager/connexion
+  controller: App\Controller\SecurityController::login
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+usager_deconnexion:
+  path: /logout
+  controller: App\Controller\SecurityController::logout
+
+usager_commandes:
+  path: /{_locale}/usager/commandes
+  controller: App\Controller\UsagerController::commandes
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+admin:
+  path: /{_locale}/admin
+  controller: App\Controller\AdminController::index
+  requirements:
+    _locale: '%app.supported_locales%'
+  defaults:
+    _locale: fr
+
+captcha_routing:
+  resource: "@CaptchaBundle/Resources/config/routing.yml"
+
+devise:
+  path: /{_locale}/devise/change/{to}
+  controller: App\Controller\DeviseController:change
+  defaults:
+    to: EUR

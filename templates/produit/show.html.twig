@@ -1,0 +1,50 @@
+{% extends 'commun/base.html.twig' %}
+
+{% block title %}{{ "Gestion produits"|trans }}{% endblock %}
+
+{% block body %}
+<main role="main" class="container-fluid">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="main-div">
+                <div class="card col-md-12">
+                    <div class="card-header">
+                        <h3>{{ "Affichage des informations du produit"|trans }}</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <th>{{'Id'|trans}}</th>
+                                <td>{{ produit.id }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{"Libelle"|trans}}</th>
+                                <td>{{ produit.libelle }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{"Texte"|trans}}</th>
+                                <td>{{ produit.texte }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{"Visuel"}}</th>
+                                <td>{{ produit.visuel }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{"Prix"|trans}}</th>
+                                <td>{{ produit.prix }}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <a href="{{ path('produit_index') }}">{{"retour à la liste des produits"|trans}}</a>
+
+                        <a href="{{ path('produit_edit', {'id': produit.id}) }}">{{"modifier"|trans}}</a>
+
+                        {{ include('produit/_delete_form.html.twig') }}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}

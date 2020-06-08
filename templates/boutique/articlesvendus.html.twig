@@ -1,0 +1,19 @@
+<div class="col-md-2" style="padding: 10px;">
+    <div class="card">
+        <div class="card-header text-center">
+            <h4>{{'Top ventes'|trans}}</h4>
+        </div>
+        <div class="card-body">
+            <ul class="list-group">
+                {% for produit in produits %}
+                <a href="{{ path('rayon', {idRayon: produit[0].categorie.id}) }}">
+                    <li class="list-group-item text-center clickable">
+                        <img src="{{ asset(produit[0].visuel) }}" style="height: 40px;">
+                        <p class="small">{{ produit[0].libelle}}<br><i>{{produit["quantite"]}} {{"ventes"|trans}}</i></p>
+                    </li>
+                </a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+{% extends 'commun/base.html.twig' %}
+
+{% block title %}{{ "Inscription"|trans }}{% endblock %}
+
+{% block body %}
+    <main role="main" class="container-fluid">
+    <div class="row">
+    <div class="col-md-10">
+        <div class="main-div">
+            <!-- debut du block content !-->
+            <div class="card col-md-12">
+                <div class="card-header">
+                    <h3>{{ "Nouveau Membre : Inscription"|trans }}</h3>
+                </div>
+                <div class="card-body">
+                    {{ include('usager/_form.html.twig') }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

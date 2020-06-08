@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="ZVgaHog" resname="Back-Office - Accueil">
+        <source>Back-Office - Accueil</source>
+        <target>Back-Office - Accueil</target>
+      </trans-unit>
+      <trans-unit id="TKefutd" resname="Gestion des Rayons">
+        <source>Gestion des Rayons</source>
+        <target>Gestion des Rayons</target>
+      </trans-unit>
+      <trans-unit id="SxUSCLz" resname="Catégories">
+        <source>Catégories</source>
+        <target>Catégories</target>
+      </trans-unit>
+      <trans-unit id="z.1v3In" resname="Vous pouvez ajouter, modifier ou supprimer une catégorie.">
+        <source>Vous pouvez ajouter, modifier ou supprimer une catégorie.</source>
+        <target>Vous pouvez ajouter, modifier ou supprimer une catégorie.</target>
+      </trans-unit>
+      <trans-unit id="bEJdzWw" resname="Gestion des catégories">
+        <source>Gestion des catégories</source>
+        <target>Gestion des catégories</target>
+      </trans-unit>
+      <trans-unit id="SbPPeKx" resname="Produits">
+        <source>Produits</source>
+        <target>Produits</target>
+      </trans-unit>
+      <trans-unit id="oKC7XcK" resname="Vous pouvez ajouter, modifier ou supprimer un produit.">
+        <source>Vous pouvez ajouter, modifier ou supprimer un produit.</source>
+        <target>Vous pouvez ajouter, modifier ou supprimer un produit.</target>
+      </trans-unit>
+      <trans-unit id="y_nfUS." resname="Gestion des produits">
+        <source>Gestion des produits</source>
+        <target>Gestion des produits</target>
+      </trans-unit>
+      <trans-unit id="uZiRiIQ" resname="Top ventes">
+        <source>Top ventes</source>
+        <target>Top ventes</target>
+      </trans-unit>
+      <trans-unit id="FxOshME" resname="ventes">
+        <source>ventes</source>
+        <target>ventes</target>
+      </trans-unit>
+      <trans-unit id="K7iKgAf" resname="Boutique">
+        <source>Boutique</source>
+        <target>Boutique</target>
+      </trans-unit>
+      <trans-unit id="WrIyBSS" resname="Boutique /">
+        <source>Boutique /</source>
+        <target>Boutique /</target>
+      </trans-unit>
+      <trans-unit id="9xboIBe" resname="rayon(s)">
+        <source>rayon(s)</source>
+        <target>rayon(s)</target>
+      </trans-unit>
+      <trans-unit id="Zkdwhy2" resname="Rayon">
+        <source>Rayon</source>
+        <target>Rayon</target>
+      </trans-unit>
+      <trans-unit id="lKwBqll" resname="Rayon Fruits /">
+        <source>Rayon Fruits /</source>
+        <target>Rayon Fruits /</target>
+      </trans-unit>
+      <trans-unit id="q3saEP." resname="Produit(s)">
+        <source>Produit(s)</source>
+        <target>Produit(s)</target>
+      </trans-unit>
+      <trans-unit id="F7nb5k_" resname="Modifier catégorie">
+        <source>Modifier catégorie</source>
+        <target>Modifier catégorie</target>
+      </trans-unit>
+      <trans-unit id="aRhBh3a" resname="Modifier une catégorie">
+        <source>Modifier une catégorie</source>
+        <target>Modifier une catégorie</target>
+      </trans-unit>
+      <trans-unit id="9fLGXGO" resname="Gestion catégories">
+        <source>Gestion catégories</source>
+        <target>Gestion catégories</target>
+      </trans-unit>
+      <trans-unit id="osTR1Fm" resname="Listes des catégories">
+        <source>Listes des catégories</source>
+        <target>Listes des catégories</target>
+      </trans-unit>
+      <trans-unit id="v9G0130" resname="Nouvelle catégorie">
+        <source>Nouvelle catégorie</source>
+        <target>Nouvelle catégorie</target>
+      </trans-unit>
+      <trans-unit id="3Oy2Ql6" resname="Créer une catégorie">
+        <source>Créer une catégorie</source>
+        <target>Créer une catégorie</target>
+      </trans-unit>
+      <trans-unit id="spuW.Xo" resname="Gestion catégorie">
+        <source>Gestion catégorie</source>
+        <target>Gestion catégorie</target>
+      </trans-unit>
+      <trans-unit id="Os1hFKh" resname="Affichage des informations de la catégorie">
+        <source>Affichage des informations de la catégorie</source>
+        <target>Affichage des informations de la catégorie</target>
+      </trans-unit>
+      <trans-unit id="EhVukhv" resname="Id">
+        <source>Id</source>
+        <target>Id</target>
+      </trans-unit>
+      <trans-unit id="gmmXFxu" resname="Libelle">
+        <source>Libelle</source>
+        <target>Libelle</target>
+      </trans-unit>
+      <trans-unit id="X3hXiYa" resname="Visuel">
+        <source>Visuel</source>
+        <target>Visuel</target>
+      </trans-unit>
+      <trans-unit id="u7C9X.V" resname="Texte">
+        <source>Texte</source>
+        <target>Texte</target>
+      </trans-unit>
+      <trans-unit id="vjjzZG5" resname="retour à la liste des catégories">
+        <source>retour à la liste des catégories</source>
+        <target>retour à la liste des catégories</target>
+      </trans-unit>
+      <trans-unit id="xwYQJiS" resname="modifier">
+        <source>modifier</source>
+        <target>modifier</target>
+      </trans-unit>
+      <trans-unit id="I_JUeLK" resname="Démo SF4">
+        <source>Démo SF4</source>
+        <target>Démo SF4</target>
+      </trans-unit>
+      <trans-unit id="K1w9JnI" resname="Contact">
+        <source>Contact</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="YdaVBBA" resname="Connexion">
+        <source>Connexion</source>
+        <target>Connexion</target>
+      </trans-unit>
+      <trans-unit id="z7GsDIB" resname="Inscription">
+        <source>Inscription</source>
+        <target>Inscription</target>
+      </trans-unit>
+      <trans-unit id="_IUmfLU" resname="Mon Compte">
+        <source>Mon Compte</source>
+        <target>Mon Compte</target>
+      </trans-unit>
+      <trans-unit id="V.0DQFf" resname="Mes Commandes">
+        <source>Mes Commandes</source>
+        <target>Mes Commandes</target>
+      </trans-unit>
+      <trans-unit id="_1_eksG" resname="Déconnexion">
+        <source>Déconnexion</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="44VnZQN" resname="BackOffice">
+        <source>BackOffice</source>
+        <target>BackOffice</target>
+      </trans-unit>
+      <trans-unit id="z44Rhdv" resname="Chercher un produit...">
+        <source>Chercher un produit...</source>
+        <target>Chercher un produit...</target>
+      </trans-unit>
+      <trans-unit id="40BE4Ql" resname="Licence Pro MI AW">
+        <source>Licence Pro MI AW</source>
+        <target>Licence Pro MI AW</target>
+      </trans-unit>
+      <trans-unit id="Z.GNZY7" resname="Ph. Martin, 2019/20">
+        <source>Ph. Martin, 2019/20</source>
+        <target>Ph. Martin, 2019/20</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="m0Wj5sB" resname="Démo Symfony 4.3">
+        <source>Démo Symfony 4.3</source>
+        <target>Démo Symfony 4.3</target>
+      </trans-unit>
+      <trans-unit id="fCaiLfD" resname="Ici rien à vendre, c'est juste pour apprendre">
+        <source>Ici rien à vendre, c'est juste pour apprendre</source>
+        <target>Ici rien à vendre, c'est juste pour apprendre</target>
+      </trans-unit>
+      <trans-unit id="Ok7Ezbm" resname="Panier">
+        <source>Panier</source>
+        <target>Panier</target>
+      </trans-unit>
+      <trans-unit id="jHLW5RZ" resname="Continuer les Courses">
+        <source>Continuer les Courses</source>
+        <target>Continuer les Courses</target>
+      </trans-unit>
+      <trans-unit id="kL8kWI8" resname="Passer la Commande">
+        <source>Passer la Commande</source>
+        <target>Passer la Commande</target>
+      </trans-unit>
+      <trans-unit id="oNPbLwg" resname="Produit">
+        <source>Produit</source>
+        <target>Produit</target>
+      </trans-unit>
+      <trans-unit id="VMMk9sE" resname="Prix">
+        <source>Prix</source>
+        <target>Prix</target>
+      </trans-unit>
+      <trans-unit id="Bs51NI8" resname="Quantite">
+        <source>Quantite</source>
+        <target>Quantite</target>
+      </trans-unit>
+      <trans-unit id="ybPDgkf" resname="Total">
+        <source>Total</source>
+        <target>Total</target>
+      </trans-unit>
+      <trans-unit id="Xl0CFs4" resname="Supprimer">
+        <source>Supprimer</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="f3gQERJ" resname="Vider le Panier">
+        <source>Vider le Panier</source>
+        <target>Vider le Panier</target>
+      </trans-unit>
+      <trans-unit id="q.xQPWX" resname="Modifier produit">
+        <source>Modifier produit</source>
+        <target>Modifier produit</target>
+      </trans-unit>
+      <trans-unit id="gbLIfwp" resname="Modifier un nouveau produit">
+        <source>Modifier un nouveau produit</source>
+        <target>Modifier un nouveau produit</target>
+      </trans-unit>
+      <trans-unit id="IbkVyNt" resname="retour à la liste des produits">
+        <source>retour à la liste des produits</source>
+        <target>retour à la liste des produits</target>
+      </trans-unit>
+      <trans-unit id="aaA3KLc" resname="Gestion produits">
+        <source>Gestion produits</source>
+        <target>Gestion produits</target>
+      </trans-unit>
+      <trans-unit id="xtLKPD2" resname="Listes des produits">
+        <source>Listes des produits</source>
+        <target>Listes des produits</target>
+      </trans-unit>
+      <trans-unit id="Kw3N1AA" resname="actions">
+        <source>actions</source>
+        <target>actions</target>
+      </trans-unit>
+      <trans-unit id="DVXDi5N" resname="voir">
+        <source>voir</source>
+        <target>voir</target>
+      </trans-unit>
+      <trans-unit id="eq3lVv7" resname="pas de produit trouvé">
+        <source>pas de produit trouvé</source>
+        <target>pas de produit trouvé</target>
+      </trans-unit>
+      <trans-unit id="MxFhkLj" resname="Créer un nouveau produit">
+        <source>Créer un nouveau produit</source>
+        <target>Créer un nouveau produit</target>
+      </trans-unit>
+      <trans-unit id="ndawamL" resname="Affichage des informations du produit">
+        <source>Affichage des informations du produit</source>
+        <target>Affichage des informations du produit</target>
+      </trans-unit>
+      <trans-unit id="eOqeRyb" resname="Déjà Membre : Connexion">
+        <source>Déjà Membre : Connexion</source>
+        <target>Déjà Membre : Connexion</target>
+      </trans-unit>
+      <trans-unit id=".5yLjAZ" resname="Mot de passe">
+        <source>Mot de passe</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="CsPSyzA" resname="Se connecter">
+        <source>Se connecter</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="piivmAm" resname="Créer un compte">
+        <source>Créer un compte</source>
+        <target>Créer un compte</target>
+      </trans-unit>
+      <trans-unit id="DjEYoku" resname="Commandes">
+        <source>Commandes</source>
+        <target>Commandes</target>
+      </trans-unit>
+      <trans-unit id=".qeI.Qn" resname="N°">
+        <source>N°</source>
+        <target>N°</target>
+      </trans-unit>
+      <trans-unit id="mcQKtAW" resname="Date">
+        <source>Date</source>
+        <target>Date</target>
+      </trans-unit>
+      <trans-unit id="lHzAfis" resname="Montant">
+        <source>Montant</source>
+        <target>Montant</target>
+      </trans-unit>
+      <trans-unit id="3uN3z9j" resname="Statut">
+        <source>Statut</source>
+        <target>Statut</target>
+      </trans-unit>
+      <trans-unit id="q_hv5OZ" resname="validation en Attente">
+        <source>validation en Attente</source>
+        <target>validation en Attente</target>
+      </trans-unit>
+      <trans-unit id="kJ5hMfw" resname="N° Client">
+        <source>N° Client</source>
+        <target>N° Client</target>
+      </trans-unit>
+      <trans-unit id="ssEkU20" resname="Nom">
+        <source>Nom</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="4yW.j5A" resname="Prénom">
+        <source>Prénom</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="ayuPG4D" resname="Activité">
+        <source>Activité</source>
+        <target>Activité</target>
+      </trans-unit>
+      <trans-unit id="Ohi7KXS" resname="Commande(s)">
+        <source>Commande(s)</source>
+        <target>Commande(s)</target>
+      </trans-unit>
+      <trans-unit id="lnH2VjJ" resname="Nouveau Membre : Inscription">
+        <source>Nouveau Membre : Inscription</source>
+        <target>Nouveau Membre : Inscription</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

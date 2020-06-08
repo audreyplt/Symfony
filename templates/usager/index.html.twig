@@ -1,0 +1,51 @@
+{% extends 'commun/base.html.twig' %}
+
+{% block title %}{{ "Inscription"|trans }}{% endblock %}
+
+
+{% block body %}
+    <main role="main" class="container-fluid">
+    <div class="row">
+    <div class="col-md-10">
+        <div class="main-div">
+            <!-- debut du block content !-->
+            <div class="col-8 offset-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>{{ "Mon Compte"|trans }}</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-striped table-sm table-hover">
+                            <tbody>
+                            <tr>
+                                <th>{{ "N° Client"|trans }}</th>
+                                <td>{{ usager.id }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{ "Nom"|trans }}</th>
+                                <td>{{ usager.nom }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{ "Prénom"|trans }}</th>
+                                <td>{{ usager.prenom }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{"Email"|trans}}</th>
+                                <td>{{ usager.email }}</td>
+                            </tr>
+                            <tr>
+                                <th>{{"Activité"|trans}}</th>
+                                <td>
+                                    <a class="btn btn-primary" href="{{ path('usager_commandes') }}">
+                                        <span class="badge badge-light">{{ commandes|length }}</span> {{"Commande(s)"|trans}} </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- fin du block content !-->
+        </div>
+    </div>
+{% endblock %}
